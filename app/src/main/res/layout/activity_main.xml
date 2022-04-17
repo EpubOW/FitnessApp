@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="428dp"
+    android:layout_height="926dp"
+    tools:context=".MainActivity"
+    android:background="@color/grey_FitnessApp">
+
+    <View
+        android:layout_width="323dp"
+        android:layout_height="323dp"
+        android:background="@drawable/circle"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="140dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="262dp"
+        android:layout_height="53dp"
+        android:background="@drawable/rectangle_rounded_all"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="712dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="214dp"
+        android:layout_height="30dp"
+        android:text="@string/enter"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="723dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="224dp"
+        android:src="@drawable/woman_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="215dp"
+        android:src="@drawable/sport_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="222dp"
+        android:src="@drawable/yoga_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
